@@ -1,5 +1,5 @@
 '''
-遍历目录下所有文件，将UTF-8编码的verilog文件转换为GBK编码。
+遍历目录下所有文件，将UTF-8编码的verilog文件转换为GBK编码。 
 '''
 
 import chardet
