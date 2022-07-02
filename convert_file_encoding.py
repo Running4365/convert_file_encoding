@@ -40,8 +40,6 @@ def convert(file, in_enc="GBK", out_enc="UTF-8"):
         print("I/O error: {0}".format(err))
 
 
-
-
 file_list = findAllFile(file_path)
 for i in file_list:
     if(i.split('.')[-1] == 'v'):  # verilog file
@@ -49,6 +47,3 @@ for i in file_list:
         print('{}: {}'.format(file_encoding, i))
         if(file_encoding=='utf-8'):
             convert(i, in_enc='utf-8', out_enc='GBK')
-
-
-
